@@ -82,6 +82,7 @@ header .info{
 .skills,
 .educations,
 .interest,
+.projects,
 .certifications,
 .courses{
    margin-top: 40px;
@@ -99,6 +100,7 @@ header .info{
 .experiences li,
 .skills li,
 .educations li,
+.projects li,
 .certifications li,
 .interest li,
 .courses li{
@@ -112,6 +114,7 @@ header .info{
 .skills li:last-child,
 .educations li:last-child,
 .interest li:last-child,
+.projects li:last-child,
 .certifications li:last-child,
 .courses li:last-child{
     border: 0px;
@@ -122,6 +125,7 @@ header .info{
 .certifications li:before,
 .interest li::before,
 .courses li::before,
+.projects li::before,
 .educations li:before{
     content: "";
     width: 15px;
@@ -140,6 +144,7 @@ header .info{
 .skills .ex-designation,
 .certifications .ex-designation,
 .courses .ex-designation,
+.projects .ex-designation,
 .educations .ex-designation{
     color: #2A2F32;
     font-family: "Mulish", sans-serif;
@@ -151,6 +156,7 @@ header .info{
 .certifications h3,
 .educations h3,
 .courses h3,
+.projects h3,
 .interest h3{
     font-size: 13px;
 }
