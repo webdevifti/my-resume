@@ -20,6 +20,8 @@ li {
 }
 .resume{
     padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 header{
     display: flex;
@@ -80,7 +82,8 @@ header .info{
 .skills,
 .educations,
 .interest,
-.certifications{
+.certifications,
+.courses{
    margin-top: 40px;
 }
 .sessions{
@@ -88,11 +91,16 @@ header .info{
     border-radius: 12px;
     position: relative;
 }
+.sessions li a{
+    text-decoration: none;
+    font-size: 12px;
+}
 .experiences li,
 .skills li,
 .educations li,
 .certifications li,
-.interest li{
+.interest li,
+.courses li{
     padding-bottom: 1.5rem;
     border-left: 1px solid #abaaed;
     position: relative;
@@ -103,7 +111,8 @@ header .info{
 .skills li:last-child,
 .educations li:last-child,
 .interest li:last-child,
-.certifications li:last-child{
+.certifications li:last-child,
+.courses li:last-child{
     border: 0px;
     padding-bottom: 0;
 }
@@ -111,6 +120,7 @@ header .info{
 .skills li:before,
 .certifications li:before,
 .interest li::before,
+.courses li::before,
 .educations li:before{
     content: "";
     width: 15px;
@@ -128,6 +138,7 @@ header .info{
 .experiences .ex-designation,
 .skills .ex-designation,
 .certifications .ex-designation,
+.courses .ex-designation,
 .educations .ex-designation{
     color: #2A2F32;
     font-family: "Mulish", sans-serif;
@@ -138,6 +149,7 @@ header .info{
 .skills h3,
 .certifications h3,
 .educations h3,
+.courses h3,
 .interest h3{
     font-size: 13px;
 }
@@ -189,7 +201,7 @@ progress {
 
 @media(max-width: 769px){
     .wrapper{
-        width: 100%;
+        width: 98%;
     }
   
     .profile h1{
